@@ -1,0 +1,13 @@
+Enter 1 for a random starting order, or 2 to set your own: 
+Invalid input, please try again
+Enter 1 for a random starting order, or 2 to set your own: 
+Starting order of pancakes: 
+7 1 4 5 2 6 9 3 8 0 
+Enter the number of the algorithm you'd like to use:
+1. UCS
+2. A*
+Invalid input, please try again
+Invalid input, please try again
+Number of flips required: 9
+Order of flips:
+10 6 8 6 3 9 7 3 8 

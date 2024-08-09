@@ -1,0 +1,10 @@
+Enter 1 for a random starting order, or 2 to set your own: 
+Enter the 10 integers from 0 to 9 in any order with no repeats
+Item 1: Item 2: Item 3: Item 4: Item 5: Item 6: Item 7: Item 8: Item 9: Item 10: Starting order of pancakes: 
+6 3 9 0 7 2 4 5 1 8 
+Enter the number of the algorithm you'd like to use:
+1. UCS
+2. A*
+Number of flips required: 10
+Order of flips:
+4 9 10 4 9 7 5 8 6 4 

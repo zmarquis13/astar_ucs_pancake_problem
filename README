@@ -1,0 +1,55 @@
+
+Tufts CS 131: Artificial Intelligence
+Homework 2: Informed Search
+By Zeno Marquis
+2/26/2024
+
+Project:
+A* and Uniform Cost Search implementation
+
+Overview:
+This program implements both A* and the Uniform Cost Search algorithm on the 10
+pancake problem. The program lets the user choose the starting order (or let
+the program select a random one) and which search algorithm they'd like to use
+to find a solution.
+
+Assumptions:
+This program supports one user at a time interacting through the terminal. 
+The UCS implementation assumes the system has a fair amount of memory and
+computing power given its potential complexity. The program uses Helmert's
+heuristic function outlined in his 2010 paper.
+
+Usage:
+Use the command "make" or "make Pancakes" to compile the executable, and 
+"./Pancakes" to run it. No additional command line arguments are needed to
+run the program, and it takes user input through the terminal as it is running.
+
+Notes on usage:
+-The Uniform Cost Search algorithm can take extended amounts of time to find a
+solution given the large number of states it may need to explore. On my system,
+this is usually around a minute.
+-This program requires c++ standard 11 or higher to compile and run properly.
+The included Makefile accounts for this.
+
+Files:
+
+    Search space representation:
+    Node.hpp - node class representing points in the search space
+
+    Additional:
+    VectorHash.hpp - struct containing a hash function for vectors of 10 unique
+    one-digit numbers
+
+    Main:
+    main.cpp
+
+    Makefile - builds the program
+
+
+Testing:
+A number of test input files and their assoiated outputs are available in the
+directory "testfiles." These files aim to represent the full range of potential
+user input to the program.
+
+
+
